@@ -29,8 +29,8 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - [gemini-api-php/client](https://github.com/gemini-api-php/client) - PHP Client for Gemini AI API.
 - [modelflow-ai/mistral](https://github.com/modelflow-ai/mistral) - A PHP API Client for Mistral AI.
 - [ardagnsrn/ollama-php](https://github.com/ArdaGnsrn/ollama-php) - A PHP library for Ollama, enabling local LLM execution.
-- [tenqz/ollama](https://github.com/tenqz/ollama) - Lightweight PHP client for Ollama.
 - [koco/anthropic](https://github.com/koco-php/anthropic) - Another robust Anthropic client.
+- [deepseek-php/client](https://github.com/deepseek-php/client) - Community client for the trending DeepSeek LLM.
 
 ## Framework Integrations
 *AI tools tailored for specific PHP frameworks.*
@@ -87,13 +87,6 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - [Rubix ML](https://rubixml.com/) - A high-level machine learning and deep learning library for PHP. Supports nearly every type of ML task from classification/regression to clustering and anomaly detection.
 - [PHP-ML](https://github.com/php-ai/php-ml) - A library for machine learning in PHP. Include algorithms, cross-validation, neural network, preprocessing, feature extraction and much more.
 
-## Spotlight: 2026 & Trending
-*New and rapidly growing projects shaping the PHP AI landscape in 2026.*
-
-- **[Symfony AI](https://github.com/symfony/ai)**: The entry of a major framework like Symfony into the AI space with official components marks a maturity point for PHP AI.
-- **[LLPhant](https://github.com/theodorejb/LLPhant)**: continues to be the "LangChain for PHP", bridging the gap for complex chains and RAG.
-- **[Prism](https://prism.echolabs.dev/)**: Rapidly becoming the standard abstraction layer for Laravel developers to switch between LLMs easily.
-
 ## Vector Databases
 *PHP clients for vector stores, essential for RAG (Retrieval-Augmented Generation).*
 
@@ -145,7 +138,7 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 ## Spotlight: 2026 & Trending
 *New and rapidly growing projects shaping the PHP AI landscape in 2026.*
 
-- **[Symfony AI](https://github.com/symfony/ai)**: The entry of a major framework like Symfony into the AI space with official components marks a maturity point for PHP AI.
+- **[Symfony AI](https://github.com/symfony/ai)**: Now **stable (v0.2.0)** as of Jan 2026. The official entry of Symfony into the AI space marks a major maturity point for the ecosystem.
 - **[LLPhant](https://github.com/theodorejb/LLPhant)**: continues to be the "LangChain for PHP", bridging the gap for complex chains and RAG.
 - **[Prism](https://prism.echolabs.dev/)**: Rapidly becoming the standard abstraction layer for Laravel developers to switch between LLMs easily.
 
