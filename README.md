@@ -15,6 +15,7 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - [Natural Language Processing (NLP)](#natural-language-processing-nlp)
 - [Computer Vision](#computer-vision)
 - [Voice & Audio](#voice--audio)
+- [Infrastructure & Cloud AI](#infrastructure--cloud-ai)
 - [Spotlight: 2026 & Trending](#spotlight-2026--trending)
 - [Learning Resources](#learning-resources)
 
@@ -119,6 +120,34 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 
 - [Laravis](https://github.com/Laravis) - (Check for specific audio packages)
 - [openai-php/client](https://github.com/openai-php/client) - Supports OpenAI's Whisper model for transcription.
+
+## Infrastructure & Cloud AI
+*SDKs and tools for deploying AI on major cloud providers and specialized infrastructure.*
+
+### AWS (Amazon Web Services)
+- [aws/aws-sdk-php](https://github.com/aws/aws-sdk-php) - Official AWS SDK for PHP. Supports **Amazon Bedrock** (Serverless LLMs) and **Amazon SageMaker**.
+- [echolabsdev/prism-bedrock](https://github.com/echolabsdev/prism-bedrock) - Bedrock provider for the Prism Laravel package.
+
+### Google Cloud Platform (GCP)
+- [google/cloud-vertex-ai](https://github.com/googleapis/google-cloud-php-vertex-ai) - Official PHP client for Google Cloud Vertex AI.
+- [google-gemini-php/client](https://github.com/google-gemini-php/client) - Community client for Gemini AI.
+
+### Azure (Microsoft)
+- [openai-php/client](https://github.com/openai-php/client) - The recommended client for connecting to **Azure OpenAI**.
+- [kvaksrud/laravel-azure-cognitive-services-api](https://github.com/Kvaksrud/laravel-azure-cognitive-services-api) - Wrapper for Azure Cognitive Services.
+
+### Specialized AI Infrastructure
+- [mateffy/huggingface](https://github.com/mateffy/huggingface) - Unofficial PHP SDK for the **Hugging Face** Inference API.
+- [kambo-1st/huggingface-php](https://github.com/kambo-1st/huggingface-php) - Comprehensive Hugging Face API client.
+- [sabinomasala/replicate-php](https://github.com/SabatinoMasala/replicate-php) - PHP client for **Replicate** to run open-source models (Llama 3, Stable Diffusion) via API.
+- [benbjurstrom/replicate-php](https://github.com/benbjurstrom/replicate-php) - Another robust Replicate client built on Saloon.
+
+## Spotlight: 2026 & Trending
+*New and rapidly growing projects shaping the PHP AI landscape in 2026.*
+
+- **[Symfony AI](https://github.com/symfony/ai)**: The entry of a major framework like Symfony into the AI space with official components marks a maturity point for PHP AI.
+- **[LLPhant](https://github.com/theodorejb/LLPhant)**: continues to be the "LangChain for PHP", bridging the gap for complex chains and RAG.
+- **[Prism](https://prism.echolabs.dev/)**: Rapidly becoming the standard abstraction layer for Laravel developers to switch between LLMs easily.
 
 ## Learning Resources
 *High-quality tutorials, courses, and guides for building AI with PHP.*
