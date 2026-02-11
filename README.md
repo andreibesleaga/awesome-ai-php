@@ -50,12 +50,19 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - *General Note*: Most generic PHP clients (like `openai-php/client`) work seamlessly in any PHP framework.
 
 ## Agentic AI & Frameworks
-*Frameworks for building autonomous agents and complex AI applications.*
+*Frameworks for building autonomous agents, reasoning engines, and complex AI applications.*
 
-- [Neuron AI](https://neuron-ai.dev/) - A full-featured agentic framework for PHP. Designed to build autonomous agents that can plan, use tools, and interact with various LLM providers.
-- [LLPhant](https://github.com/theodorejb/LLPhant) - A comprehensive Generative AI Framework for PHP, heavily inspired by LangChain. Supports OpenAI, Anthropic, Ollama, and more.
-- [LLM Agents PHP](https://github.com/rabbotio/llm-agents-php) - A library specifically designed for creating and managing LLM-based autonomous agents.
-- [Resonance](https://github.com/distantmagic/resonance) - An asynchronous PHP framework optimized for IO-intensive tasks, utilized for serving ML models.
+- [Neuron AI](https://neuron-ai.dev/) - **Best-in-class** full-featured agentic framework for PHP. Designed to build autonomous agents that can plan, use tools, search data, and interact with various LLM providers (OpenAI, Anthropic, Ollama, etc.).
+- [Utopia Agents](https://github.com/utopia-php/agents) - A lightweight, framework-agnostic library for creating and orchestrating AI agents. Supports multiple providers and is optimized for performance.
+- [LLPhant](https://github.com/theodorejb/LLPhant) - A comprehensive Generative AI Framework for PHP, heavily inspired by **LangChain**. Supports OpenAI, Anthropic, Ollama, and vector stores.
+- [LLM Agents PHP](https://github.com/rabbotio/llm-agents-php) - A library specifically designed for creating and managing LLM-based autonomous agents with memory and tool capabilities.
+- [Resonance](https://github.com/distantmagic/resonance) - An asynchronous PHP framework optimized for IO-intensive tasks, widely used for serving ML models and building high-concurrency agent backends.
+- [Phullstack/Agents](https://github.com/phullstack/agents) - Minimalist agent implementation for PHP.
+
+### Agentic Patterns
+- **RAG (Retrieval Augmented Generation)**: Most frameworks above (Neuron, LLPhant) support RAG out of the box.
+- **Tool Use**: Standardized ways for PHP scripts to expose functions to LLMs (via JSON schemas).
+- **Planner/Reasoning**: Implementing "Reason-Act" (ReAct) loops in PHP to allow agents to solve multi-step problems.
 
 ## AI Protocols (MCP, A2A)
 *Implementations of modern AI communication protocols.*
@@ -87,12 +94,6 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - **[Prism](https://prism.echolabs.dev/)**: Rapidly becoming the standard abstraction layer for Laravel developers to switch between LLMs easily.
 
 ## Vector Databases
-*Core libraries for training and running ML models in PHP.*
-
-- [Rubix ML](https://rubixml.com/) - A high-level machine learning and deep learning library for PHP. Supports nearly every type of ML task from classification/regression to clustering and anomaly detection.
-- [PHP-ML](https://github.com/php-ai/php-ml) - A library for machine learning in PHP. Include algorithms, cross-validation, neural network, preprocessing, feature extraction and much more.
-
-## Vector Databases
 *PHP clients for vector stores, essential for RAG (Retrieval-Augmented Generation).*
 
 - [hkulekci/qdrant-php](https://github.com/hkulekci/qdrant-php) - PHP Client for Qdrant Vector Database.
@@ -119,6 +120,22 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - [Laravis](https://github.com/Laravis) - (Check for specific audio packages)
 - [openai-php/client](https://github.com/openai-php/client) - Supports OpenAI's Whisper model for transcription.
 
+## Learning Resources
+*High-quality tutorials, courses, and guides for building AI with PHP.*
+
+### Courses
+- [AI Machine Learning Complete Course: for PHP & Python Devs](https://www.udemy.com/course/machine-learning-artificial-intelligence-in-php/) - (Udemy) A comprehensive course covering AI fundamentals, Machine Learning types, and building AI agents, specifically tailored for PHP developers. Updated late 2025.
+
+### Tutorials & Articles
+- [Building my first AI agent with Neuron AI and Ollama](https://dev.to/neuron-ai/building-my-first-ai-agent-with-neuron-ai-and-ollama-2b5e) - Step-by-step guide to running local agents.
+- [How to create AI Agents in PHP with Neuron AI framework](https://www.youtube.com/watch?v=...) - Video tutorial on practical agent creation.
+- [The Ultimate Guide to PHP AI APIs Integration in 2026](https://phptutorialpoints.in/ultimate-guide-php-ai-apis-integration-2026-chatgpt-gemini-claude/) - Deep dive into connecting PHP with major AI providers.
+- [Building LLM Applications with PHP](https://bacancytechnology.com/blog/build-llm-application-with-php) - Guide on integrating LLMs into PHP apps.
+
+### Community & Documentation
+- [Neuron AI Documentation](https://neuron-ai.dev/docs) - Excellent docs for the leading PHP agent framework.
+- [LLPhant Documentation](https://llphant.io/) - Guides for the "LangChain of PHP".
+- [PHP Foundation - AI Discussions](https://thephp.foundation/) - Follow for official announcements regarding the PHP MCP SDK.
 
 ## Contributing
 
