@@ -7,13 +7,13 @@ The following is a set of guidelines for contributing to this awesome list.
 ## How to contribute
 
 1.  **Fork the repository** on GitHub.
-2.  **Create a new branch** for your feature or addition (`git checkout -b add-amazing-library`).
+2.  **Create a new branch** for your feature or addition (`git checkout -b add-amazing-project`).
 3.  **Add your link** to the appropriate section in `README.md`.
-    *   Please follow the format: `- [Library Name](Link) - Short, objective description.`
+    *   Please follow the format: `- [Project Name](Link) - Short, objective description.`
     *   Keep descriptions concise.
     *   Ensure the link is valid and points to the official repository or documentation.
-4.  **Commit your changes** (`git commit -am 'Add Amazing Library'`).
-5.  **Push to the branch** (`git push origin add-amazing-library`).
+4.  **Commit your changes** (`git commit -am 'Add Amazing Project'`).
+5.  **Push to the branch** (`git push origin add-amazing-project`).
 6.  **Create a new Pull Request**.
 
 ## Guidelines
