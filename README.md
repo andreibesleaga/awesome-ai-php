@@ -36,6 +36,7 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 *AI tools tailored for specific PHP frameworks.*
 
 ### Laravel
+- [laravel/ai](https://github.com/laravel/ai) - The **Official** Laravel AI SDK. Provides a unified API for interacting with various AI providers (OpenAI, Anthropic, Gemini, etc.) and building AI-powered applications.
 - [echolabsdev/prism](https://prism.echolabs.dev/) - A unified LLM package for Laravel that abstracts provider differences (OpenAI, Anthropic, Ollama).
 - [openai-php/laravel](https://github.com/openai-php/laravel) - The official-ish Laravel wrapper for the OpenAI PHP client.
 - [gemini-api-php/laravel](https://github.com/gemini-api-php/laravel) - Laravel integration for Gemini AI.
