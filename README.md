@@ -62,7 +62,7 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - [**LarAgent**](https://github.com/MaestroError/LarAgent) - Eloquent-style agent framework for Laravel with tools, memory, multi-agent workflows, and structured output.
 - [**Utopia Agents**](https://github.com/utopia-php/agents) - Lightweight, framework-agnostic library for creating and orchestrating AI agents. Supports multiple providers, optimized for performance. Maintained by the Appwrite team.
 - [**LLPhant**](https://github.com/LLPhant/LLPhant) - Comprehensive Generative AI framework for PHP, heavily inspired by LangChain. Supports OpenAI, Anthropic, Ollama, and vector stores.
-- [**Resonance**](https://github.com/distantmagic/resonance) - Asynchronous PHP framework optimized for IO-intensive tasks, used for serving ML models and high-concurrency agent backends.
+- [**Resonance**](https://github.com/distantmagic/resonance) - Asynchronous PHP framework optimized for IO-intensive tasks, used for serving ML models and high-concurrency agent backends. *(no commits since Dec 2024)*
 
 ### Agentic Patterns
 - **RAG (Retrieval Augmented Generation)**: Supported out of the box by Neuron AI, LLPhant, Laravel AI, and Prism.
@@ -170,8 +170,8 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - [**AI Machine Learning Complete Course: for PHP & Python Devs**](https://www.udemy.com/course/machine-learning-artificial-intelligence-in-php/) - (Udemy) Covers AI fundamentals, machine learning types, and building AI agents tailored for PHP developers. Updated late 2025.
 
 ### Tutorials & Articles
-- [**The Ultimate Guide to PHP AI APIs Integration in 2026**](https://phptutorialpoints.in/ultimate-guide-php-ai-apis-integration-2026-chatgpt-gemini-claude/) - Deep dive into connecting PHP with major AI providers.
-- [**Building LLM Applications with PHP**](https://bacancytechnology.com/blog/build-llm-application-with-php) - Guide on integrating LLMs into PHP apps.
+- [**Integrating AI APIs in PHP**](https://phptutorialpoints.in/how-to-integrate-ai-apis-in-php/) - Deep dive into connecting PHP with major AI providers.
+- [**Building LLM Applications with PHP**](https://www.bacancytechnology.com/blog/php-and-llm) - Guide on integrating LLMs into PHP apps.
 
 ### Community & Documentation
 - [**Neuron AI Documentation**](https://neuron-ai.dev/docs) - Docs for the leading PHP agentic framework.
