@@ -133,7 +133,8 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 *Speech-to-Text (STT) and Text-to-Speech (TTS).*
 
 - [**openai-php/client**](https://github.com/openai-php/client) - Supports OpenAI's Whisper model for transcription and TTS via `audio()->transcribe()` and `audio()->speech()`.
-- *Note*: No official PHP SDKs currently exist for ElevenLabs, AssemblyAI, or Deepgram. These services expose REST APIs consumable via PHP HTTP clients (Guzzle, Symfony HttpClient). This is an open gap in the PHP AI ecosystem.
+- [**runapi-ai/elevenlabs-php**](https://github.com/runapi-ai/elevenlabs-php) - Composer package for ElevenLabs text-to-speech, dialogue generation, sound effects, transcription, and audio isolation workflows through RunAPI.
+- *Note*: For AssemblyAI and Deepgram, no official PHP SDKs currently exist. These services expose REST APIs consumable via PHP HTTP clients (Guzzle, Symfony HttpClient).
 
 ## Infrastructure & Cloud AI
 *SDKs and tools for deploying AI on major cloud providers and specialized infrastructure.*
