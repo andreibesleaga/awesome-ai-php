@@ -175,7 +175,7 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - [**Building LLM Applications with PHP**](https://www.bacancytechnology.com/blog/php-and-llm) - Guide on integrating LLMs into PHP apps.
 
 ### Community & Documentation
-- [**Neuron AI Documentation**](https://neuron-ai.dev/docs) - Docs for the leading PHP agentic framework.
+- [**Neuron AI Documentation**](https://docs.neuron-ai.dev/) - Docs for the leading PHP agentic framework.
 - [**LLPhant GitHub**](https://github.com/LLPhant/LLPhant) - Source and docs for the LangChain-inspired PHP framework.
 - [**PHP Foundation**](https://thephp.foundation/) - Follow for official announcements on PHP language development and ecosystem initiatives.
 - [**Prism Documentation**](https://prismphp.com/) - Comprehensive docs for multi-provider LLM abstraction in Laravel.
