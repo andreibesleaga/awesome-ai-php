@@ -62,7 +62,7 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - [**LarAgent**](https://github.com/MaestroError/LarAgent) - Eloquent-style agent framework for Laravel with tools, memory, multi-agent workflows, and structured output.
 - [**Utopia Agents**](https://github.com/utopia-php/agents) - Lightweight, framework-agnostic library for creating and orchestrating AI agents. Supports multiple providers, optimized for performance. Maintained by the Appwrite team.
 - [**LLPhant**](https://github.com/LLPhant/LLPhant) - Comprehensive Generative AI framework for PHP, heavily inspired by LangChain. Supports OpenAI, Anthropic, Ollama, and vector stores.
-- [**Resonance**](https://github.com/distantmagic/resonance) - Asynchronous PHP framework optimized for IO-intensive tasks, used for serving ML models and high-concurrency agent backends. *(no commits since Dec 2024)*
+- [**Resonance**](https://github.com/distantmagic/resonance) ⚠️ *(archived)* - Asynchronous PHP framework optimized for IO-intensive tasks, used for serving ML models and high-concurrency agent backends. *(no commits since Dec 2024)*
 
 ### Agentic Patterns
 - **RAG (Retrieval Augmented Generation)**: Supported out of the box by Neuron AI, LLPhant, Laravel AI, and Prism.
@@ -82,7 +82,7 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - [**swisnl/mcp-client**](https://github.com/swisnl/mcp-client) - Asynchronous PHP client for the Model Context Protocol.
 - [**james2037/mcp-php-server**](https://github.com/james2037/mcp-php-server) - Focused MCP Server implementation.
 
-### Agent-to-Agent (A2A) Protocol
+### Agent2Agent (A2A) Protocol
 *Protocol for seamless communication between autonomous agents.*
 - [aurimasbutkus/a2a-php](https://github.com/aurimasbutkus/a2a-php) - Framework-agnostic A2A protocol implementation.
 - [**andreibesleaga/a2a-php**](https://github.com/andreibesleaga/a2a-php) - A comprehensive PHP implementation of the A2A protocol (v0.3).
@@ -167,6 +167,9 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 ## Learning Resources
 *High-quality tutorials, courses, and guides for building AI with PHP.*
 
+### Books
+- [**Agentic AI Architectures: Multi-Agent System Patterns with TypeScript**](https://agenticaiarchitectures.com) - Book by Andrei N. Besleaga (Wiley; publication planned for 2026), with runnable TypeScript companion code in [agentic-ai-architectures](https://github.com/andreibesleaga/agentic-ai-architectures), ported to PHP in [agentic-ai-php](https://github.com/andreibesleaga/agentic-ai-php).
+
 ### Courses
 - [**AI Machine Learning Complete Course: for PHP & Python Devs**](https://www.udemy.com/course/machine-learning-artificial-intelligence-in-php/) - (Udemy) Covers AI fundamentals, machine learning types, and building AI agents tailored for PHP developers. Updated late 2025.
 
@@ -249,7 +252,7 @@ A curated list of **PHP** libraries, SDKs, frameworks, and software for **Artifi
 - [**Lakera Guard**](https://www.lakera.ai/lakera-guard) - Runtime REST API for prompt-injection, jailbreak, PII, and agent tool-call policy enforcement; consumable from any PHP HTTP client.
 - [**OpenAI Moderation API**](https://platform.openai.com/docs/guides/moderation) - Accessible via `openai-php/client`; provides content safety classification at zero cost.
 - [**Microsoft Presidio**](https://microsoft.github.io/presidio/) - PII detection and anonymization (Python core); deployable as a sidecar service callable from PHP apps via REST.
-- [**NVIDIA NeMo Guardrails**](https://github.com/NVIDIA/NeMo-Guardrails) - Programmable guardrails (Colang DSL); Python runtime, callable from PHP apps via API.
+- [**NVIDIA NeMo Guardrails**](https://github.com/NVIDIA-NeMo/Guardrails) - Programmable guardrails (Colang DSL); Python runtime, callable from PHP apps via API.
 - *Gap*: No PHP-native prompt-injection detection or AI output validation library currently exists on Packagist. **Contributions welcome.**
 
 ---
